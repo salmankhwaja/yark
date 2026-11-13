@@ -12,9 +12,9 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "~3.11"
-Flask = "^2.2.2"
+Flask = ">=2.2.2,<4.0.0"
 requests = "^2.28.2"
-yt-dlp = "^2023.1.6"
+yt-dlp = ">=2023.1.6,<2027.0.0"
 progress = "^1.6"
 colorama = "^0.4.6"
 
@@ -23,9 +23,9 @@ mypy = "^0.991"
 poethepoet = "^0.18.1"
 types-colorama = "^0.4.15.4"
 types-requests = "^2.28.11.8"
-black = "^22.12.0"
+black = ">=22.12,<27.0"
 pylint = "^2.15.10"
-pyinstaller = "^5.7.0"
+pyinstaller = ">=5.7,<7.0"
 
 [tool.poetry.scripts]
 yark = "yark.cli:_cli"
